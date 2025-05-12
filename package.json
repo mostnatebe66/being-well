@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "express": "^5.1.0",
+    "fastify": "^5.3.2",
     "latest": "^0.2.0"
   },
   "name": "being-well",
@@ -8,9 +9,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-api": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "<betznate@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/mostnatebe66/being-well.git"
 }
